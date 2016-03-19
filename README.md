@@ -1,10 +1,15 @@
 # HTBMajorLeagueGames
-2) In Java:
+2) Triple.java source:
+```
 public class Triple<Integer, Integer, Double> {
   public Triple(Integer requiredFirst) {
     first = requiredFirst;
   }
 }
+```
+
+Javac compilation error:
+```
 An exception has occurred in the compiler (1.7.0_21). Please file a bug at the Java Developer Connection (http://java.sun.com/webapps/bugreport)  after checking the Bug Parade for duplicates. Include your program and the following diagnostic in your report.  Thank you.
 java.lang.NullPointerException
         at com.sun.tools.javac.comp.MemberEnter.baseEnv(MemberEnter.java:1046)
@@ -38,3 +43,4 @@ java.lang.NullPointerException
         at com.sun.tools.javac.main.Main.compile(Main.java:333)
         at com.sun.tools.javac.Main.compile(Main.java:76)
         at com.sun.tools.javac.Main.main(Main.java:61)
+```
