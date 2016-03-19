@@ -44,3 +44,4 @@ java.lang.NullPointerException
         at com.sun.tools.javac.Main.compile(Main.java:76)
         at com.sun.tools.javac.Main.main(Main.java:61)
 ```
+This has been fixed in the latest Java 9 compiler, source - https://bugs.openjdk.java.net/browse/JDK-8052070
